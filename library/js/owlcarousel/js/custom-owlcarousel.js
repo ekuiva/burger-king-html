@@ -11,8 +11,7 @@ $(document).ready(function() {
  
   });
 
-    $("#owl-demo-dua").owlCarousel({
- 
+$("#owl-demo-dua").owlCarousel({
     center: true,
     items:2,
     loop:true,
@@ -25,4 +24,17 @@ $(document).ready(function() {
  
   });
  
+$("#owl-demo-offers").owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    margin:10,
+    // autoWidth:true,
+    responsive:{
+        600:{
+            items:4
+        }
+    }
+ 
+  });
 });

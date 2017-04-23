@@ -688,7 +688,7 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
 }
 
-/*STYLE FOR MENU.HTML*/
+/*STYLE FOR OFFERS.HTML*/
 
 .menu-burger { 
     border: -2px solid transparent;
@@ -749,4 +749,37 @@ h1, h2, h3, h4, h5, h6 {
 .btn-4 {
     padding-top: 10px;
     background:#e1261c; 
+}
+
+/* STYLE FOR OFFERS.HTML */
+.bg-offer img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 34px 0 32px;
+}
+
+.row-offer img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 34px 0 32px;
+}
+
+.conten-silder {
+    padding: 1px 0 25px;
+}
+
+.flip-offer {
+    border-radius: 6px;
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+}
+
+.flip-offer .flip-a {
+    padding-top: 0px;
+    margin-top: 11px;
+    margin-left: 72px;
+    margin-bottom: 70px;
 }
