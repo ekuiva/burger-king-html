@@ -9,6 +9,14 @@ Fitur dari Website Burger King Wordpress ini :
   - Mudah untuk pemebelajaran
   - Mudah untuk dimodifikasi
   - Bisa diintregrasikan kedalam CMS Wordpress
+
+### Demo Website 
+Demo website username & password: 
+```sh
+URL : bk.ekuiva.com
+Username : demo	
+Password : demo
+```
   
 ### Installasi
 
