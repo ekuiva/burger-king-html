@@ -20,10 +20,12 @@ $ git clone https://github.com/ekuiva/burger-king.git
 ```
 Jalankan localhost arahkan ke folder ```burger-king```
 
-License
-----
+### License
 
-MIT
+[The MIT License](https://opensource.org/licenses/MIT)
+
+**Dikembangkan Oleh :**
+[Lani Asep Sutisna](https://github.com/laniasepsutisna)
 
 **Free Software, Hell Yeah!**
 
