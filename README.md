@@ -2,7 +2,7 @@
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-Ini adalah repositori Website Burger King menggunakan CMS Wordpress untuk keperluan latihan membuat template HTML.
+Ini adalah repositori Website Burger King menggunakan HTML & CSS untuk keperluan latihan membuat template Website Burger King.
 
 Fitur dari Website Burger King Wordpress ini :
   - Menggunakan bootstrap versi v3.0.3
