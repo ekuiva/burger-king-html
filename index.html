@@ -1,16 +1,19 @@
 <html lang="en" dir="ltr">
    <head>
-         <meta charset="utf-8">
-         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-         <title>BURGER KING</title>
-         <link rel="shortcut icon" href="library/images/BK_Favicon.ico" type="image/vnd.microsoft.icon"/>
-         <link href="library/css/bootstrap.min.css" rel="stylesheet">
-         <link href="library/css/styles.css" rel="stylesheet">
-         <!-- Owl Slider -->
-         <link rel="stylesheet" href="library/js/owlcarousel/css/owl.carousel.min.css">
-         <link rel="stylesheet" href="library/js/owlcarousel/css/owl.theme.default.min.css">
-      </head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>BURGER KING</title>
+      <link rel="shortcut icon" href="library/images/BK_Favicon.ico" type="image/vnd.microsoft.icon"/>
+      <link href="library/css/bootstrap.min.css" rel="stylesheet">
+      <link href="library/css/styles.css" rel="stylesheet">
+      <!-- Owl Slider -->
+      <link rel="stylesheet" href="library/js/owlcarousel/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="library/js/owlcarousel/css/owl.theme.default.min.css">
+
+      <!-- Boostrap Select -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+   </head>
    <body>
       <div class="container-fluid">
          <!-- Nav -->
@@ -61,10 +64,12 @@
                         <li class="li-nav">
                            <a href="#" class="pull-left">
                            <span class="menuItem-small">Newsletter</span>
-                           <span class="menuItem-medium">Sign Up
+                           <span class="menuItem-medium">
+                           <span data-toggle="modal" data-target="#myModal">Sign Up</span>
                            <i class="icon icon_pindrop-sosmed icon_facebook"></i>
                            <i class="icon icon_pindrop-sosmed icon_twitter"></i>
-                           <i class="icon icon_pindrop-sosmed icon_instagram"></i></span>
+                           <i class="icon icon_pindrop-sosmed icon_instagram"></i>
+                           </span>
                            </a>
                         </li>
                      </ul>
@@ -323,24 +328,101 @@
                </div>
             </div>
          </div>
-         
          <!-- BUTTON TO THE TOP -->
          <div class="row bg-btn-footer">
             <div class="col-md-4"></div>
             <div class="col-md-4">
                <div class="bk-btn-footer center-block">
-               <a id="back-to-top" href="#"><p class="font-button">Back to The Top <img src="library/images/top-icon.png"><p></a>
+                  <a id="back-to-top" href="#">
+                     <p class="font-button">Back to The Top <img src="library/images/top-icon.png">
+                     <p>
+                  </a>
                </div>
             </div>
             <div class="col-md-4"></div>
          </div>
+         <div class="row">
+            <!-- MODAL SIGN UP-->
+            <div class="modal fade" id="myModal" role="dialog">
+               <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                     <div class="modal-body">
+                        <div class="row">
+                           <div class="col-md-4 form-image">
+                              <img id="img-icon-header" src="library/images/logo-transparan.png">
+                              <div id="owl-demo-modal" class="owl-carousel owl-theme"">
+                                 <img id="img-icon-burger" src="library/images/food-kategori/burger.jpg">
+                                 <img id="img-icon-burger" src="library/images/food-kategori/chicken-more.png">
+                                 <img id="img-icon-burger" src="library/images/food-kategori/breakfast.jpg">
+                              </div>
+                           </div>
+                           <div class="col-md-8 form-content">
+                              <h1>SIGN UP FOR BK ALERTS</h1>
+                              <p class="bk-p">Be in the know about BK® news, fresh offers, coupons, and other delicious deals. Simply fill out the form below and we'll do the rest.</p>
+                              <form>
+                                 <div class="form-group">
+                                    <label for="name">NAME*</label>
+                                    <div class="form-group form-inline">
+                                       <input type="name" class="form-control" placeholder="First Name">
+                                       <input type="name" class="form-control" placeholder="First Name">
+                                    </div>
 
+
+                                    <label for="name">ZIP CODE* & EMAIL*</label>
+                                    <div class="form-group form-inline">
+                                       <input type="name" class="form-control" placeholder="Zip Code">
+                                       <input type="name" class="form-control" placeholder="Email">
+                                    </div>
+
+                                    <label for="name">BIRTH DATE*</label>
+                                    <div class="form-group form-inline">
+                                       <select class="form-control selectWidth" id="month">
+                                          <option hidden >Month</option>
+                                       </select>
+                                       <select class="form-control selectWidth" id="day">
+                                          <option hidden >Day</option>
+                                       </select>
+                                       
+                                       <select class="form-control selectWidth" id="year">
+                                          <option hidden >Year</option>
+                                       </select>
+                                    </div>
+
+                                    <p class="bk-p">
+                                       By clicking the Submit button you agree to the site's Collection of Information Policy as outlined in the Burger King Corporation <a href="http://www.bk.com/privacy" target="_blank" style="color: #428bca">Privacy Policy</a>
+                                    </p>
+                                 </div>      
+                                 <div class="g-recaptcha" data-sitekey="6LfnXh4UAAAAAOFJNmIWqmo-ojFPbBdavXP4yKiV"></div><br/>
+                                 <div class="form-group form-inline">
+                                    <button type="submit" class="btn btn-warning btn-lg" style="width: 160px">SIGN UP</button>
+                                    <button type="submit" class="btn btn-warning btn-lg" style="width: 160px" data-dismiss="modal">CLOSE</button>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
       </div>
    </body>
+   <!-- Jquery -->
    <script src="library/js/jquery/jquery.min.js"></script>
    <script src="library/js/jquery/custom-jquery.js"></script>
+   <!-- Bootstrap -->
+   <script src="library/js/bootstrap.min.js"></script>
+   <!-- Slider Owl Carousel -->
    <script src="library/js/owlcarousel/js/owl.carousel.min.js"></script>
    <script src="library/js/owlcarousel/js/owl.carousel.js"></script>
    <script src="library/js/owlcarousel/js/custom-owlcarousel.js"></script>
 
+   <!-- Boostrap Select -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+   <script src="library/js/bootstrap-select/custom-bootstrap.js"></script>
+
+   <!-- Re-Captcha -->
+   <script src='https://www.google.com/recaptcha/api.js'></script>
 </html>

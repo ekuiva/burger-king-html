@@ -783,3 +783,43 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 72px;
     margin-bottom: 70px;
 }
+
+
+/* STLE FOR MODAL SIGN UP */
+
+.burger {
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding: 145px 25px 0px 25px;
+}
+
+#img-icon-header  {
+    width: 34%;
+    position: absolute;
+    margin-left: 86px;
+    margin-top: -39px;
+
+}
+
+#img-icon-burger {
+    margin-top: 63px;
+}
+
+.form-image {
+    padding-top: 68px;
+    padding-left: 30px;
+}
+
+.form-content {
+    padding-left: 60px;
+}
+
+.selectWidth {
+    width: 130px !important;
+    margin:0px;
+  }
+
+.bk-p {
+    font-size: 14px;
+}

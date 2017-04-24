@@ -1,15 +1,14 @@
-$(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
+
+$("#owl-demo").owlCarousel({
+
     items:1,
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:6000,
     autoplayHoverPause:true
- 
-  });
+
+});
 
 $("#owl-demo-dua").owlCarousel({
     center: true,
@@ -21,9 +20,9 @@ $("#owl-demo-dua").owlCarousel({
             items:4
         }
     }
- 
-  });
- 
+
+});
+
 $("#owl-demo-offers").owlCarousel({
     loop:true,
     margin:10,
@@ -35,6 +34,14 @@ $("#owl-demo-offers").owlCarousel({
             items:4
         }
     }
- 
-  });
 });
+
+$("#owl-demo-modal").owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true
+});
+
