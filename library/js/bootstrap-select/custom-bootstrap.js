@@ -17,10 +17,12 @@ for(var d=day; d<=till; d++){
 document.getElementById("day").innerHTML = options;
 
 // for lopping Year
-var year = 2017;
+var d = new Date();
+var year = d.getFullYear();
 var till = 1990;
 var options = "";
 for(var y=year; y>=till; y--){
   options += "<option>"+ y +"</option>";
 }
 document.getElementById("year").innerHTML = options;
+document.getElementById("copyright_year").innerHTML = year;
