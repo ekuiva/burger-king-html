@@ -23,7 +23,7 @@ Silahkan ikuti beberapa langkah untuk melakukan installasi dikomputer local.
 
 Clone repositori ini melalui command line:
 ```sh
-$ git clone https://github.com/ekuiva/burger-king.git
+$ git clone https://github.com/ekuiva/burger-king-html.git
 ```
 Jalankan localhost arahkan ke folder ```burger-king```
 
